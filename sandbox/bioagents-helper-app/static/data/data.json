@@ -1,11 +1,3 @@
-[
-    "GENOMICUS",
-    "PAFScaff_Pairwise_mApping_Format_reference-based_scaffold_anchoring_and_super-scaffolding.",
-    "imgt_v-quest",
-    "IMGT_StructuralQuery",
-    "IMGT_StatClonotype",
-    "eda",
-    "capiu",
-    "cake",
-    "browserviz"
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:249d7b672ee09d1dce8ed1d699e493e4a8cac487a492862ed4581d8b773145eb
+size 245
