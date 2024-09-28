@@ -1,8 +1,8 @@
 # Agent Information Profiles
 
-A *agent information profile* is a JSON document which specifies which agent attributes - defined in [bioagentsSchema](https://github.com/bio-agents/bioagentsSchema) and also listed in the file [agent_attributes.json](https://github.com/bio-agents/Agent-Information-Profiles/blob/master/agent_attributes.json) - should be specified for different types of agents within a set of agent descriptions.
+A *agent information profile* is a JSON document which specifies which agent attributes - defined in [bioagents schema](https://github.com/bio-agents/bioagents schema) and also listed in the file [agent_attributes.json](https://github.com/bio-agents/Agent-Information-Profiles/blob/master/agent_attributes.json) - should be specified for different types of agents within a set of agent descriptions.
 
-Within a profile, bioagentsSchema [attributes](https://bioagentsschema.readthedocs.io/en/latest/bioagentsschema_elements.html#) may be specified for different [agent types](https://bioagentsschema.readthedocs.io/en/latest/controlled_vocabularies.html#agent-type) as:  
+Within a profile, bioagents schema [attributes](https://bioagents-schema.readthedocs.io/en/latest/bioagents-schema_elements.html#) may be specified for different [agent types](https://bioagents-schema.readthedocs.io/en/latest/controlled_vocabularies.html#agent-type) as:  
 * **Mandatory** - the attribute **MUST** be defined
 * **Recommended** - the attribute **SHOULD** be defined
 * **Optional** - the attribute **MAY** be defined
@@ -15,7 +15,7 @@ The key words "MUST", "MUST NOT", "SHOULD", and "MAY", and "OPTIONAL" are to be 
 * "SHOULD" mean that there may exist valid reasons in particular circumstances to ignore a particular guideline, but the full implications must be understood and carefully weighed before doing so.
 * "MAY mean that the guideline is truly optional; you can choose to follow it or not.
 
-Agent information profiles **MUST** comply with the Agent Information Profile Schema (a JSON schema), which supports *all* of the bioagentsSchema attributes.
+Agent information profiles **MUST** comply with the Agent Information Profile Schema (a JSON schema), which supports *all* of the bioagents schema attributes.
 
 # Example
 An information graphic derived from the [IFB Agent Information Profile](https://github.com/bio-agents/Agent-Information-Profiles/blob/master/profiles/ifbAgentInfoProfile.json) is shown below:
@@ -50,7 +50,7 @@ docs                            | Technical docs formatted for website (latest s
 versions                        | Older stable versions of the schema + docs
 profiles                        | Agent Information Profiles created thus far
 agentAttributesSchema.json       | JSON schema for the agent attributes JSON file
-agent_attributes.json	        | Lits of attributes defined in bioagentsSchema in JSON format
+agent_attributes.json	        | Lits of attributes defined in bioagents schema in JSON format
 agent_attributes_WITH_REGEX.json | Version of agent_attributes.json with regex patterns (ignore for now)
 assets                          | Folder for images and other assets
 README.md		        | This file
